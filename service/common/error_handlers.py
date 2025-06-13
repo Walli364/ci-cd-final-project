@@ -51,7 +51,7 @@ def not_found(error):
         message=message
     ),
     status.HTTP_404_NOT_FOUND,
-    )
+)
 
 
 @app.errorhandler(status.HTTP_405_METHOD_NOT_ALLOWED)
